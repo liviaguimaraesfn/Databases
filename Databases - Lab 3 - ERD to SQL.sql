@@ -1,5 +1,3 @@
--- Databases 1 Lab 3 - C24329646 - From ERD to SQL
-
 -- Request 1: Provide the Data Definition Language (DDL) script to show the implementation of the database presented in the ERD.
 
 DROP TABLE IF EXISTS player_contracts;
@@ -52,4 +50,5 @@ ADD COLUMN bonus DECIMAL(10, 2) DEFAULT 0 CHECK (bonus >= 0);
 -- Make sure you rename the columns in the output as “Player’s name” and “Player’s age”.
 SELECT player_name AS "Player's name", age AS "Player's age"
 FROM players
+
 WHERE nationality = 'Irish' OR nationality = 'English';
