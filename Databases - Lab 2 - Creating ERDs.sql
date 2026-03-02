@@ -1,5 +1,3 @@
--- Databases 1 Lab 2 - C24329646 - Creating ERDs with script by PGAdmin ERD tool.
-
 CREATE TABLE IF NOT EXISTS "FoodDeliveryApp"."Customer" (
     "CustomerID" SERIAL,
     "CustomerName" text,
